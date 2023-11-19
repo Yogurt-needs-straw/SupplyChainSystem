@@ -1,20 +1,34 @@
 {
   "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/mine/mine"
   ],
+  "tabBar": {
+    "custom": true,
+    "selectedColor": "#1f41d8",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tabbar2/ic_waybill_unchecked.png",
+        "selectedIconPath": "/images/tabbar2/ic_waybill_checked.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/tabbar2/ic_mine_unchecked.png",
+        "selectedIconPath": "/images/tabbar2/ic_mine_checked.png"
+      }
+    ]
+  },
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "rendererOptions": {
-    "skyline": {
-      "defaultDisplayBlock": true,
-      "disableABTest": true,
-      "sdkVersionBegin": "3.0.0",
-      "sdkVersionEnd": "15.255.255"
-    }
-  },
-  "componentFramework": "glass-easel",
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "sitemapLocation": "sitemap.json"
 }

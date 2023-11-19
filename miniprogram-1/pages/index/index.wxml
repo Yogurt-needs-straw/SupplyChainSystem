@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
+
+<tabbar selected="{{0}}"></tabbar>

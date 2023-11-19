@@ -1,7 +1,7 @@
 {
   "appid": "wxf1a5cb0a7b3924dc",
   "compileType": "miniprogram",
-  "libVersion": "3.2.1",
+  "libVersion": "2.25.4",
   "isGameTourist": false,
   "packOptions": {
     "ignore": [
