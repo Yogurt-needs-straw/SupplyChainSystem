@@ -5,7 +5,6 @@
     "pages/mine/mine"
   ],
   "tabBar": {
-    "custom": true,
     "selectedColor": "#1f41d8",
     "position": "bottom",
     "list": [
